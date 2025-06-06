@@ -2,6 +2,6 @@ This repository provides the code that has been used to obtain the results for o
 
 Before proceeding with the demo code, please run `sudo bash setup.sh` to install the prerequisite libraries. The prerequisites include python3 and concrete-ml. Please skip this setup step if these tools are already installed on the testing system. We have used python 3.8.10 and concrete-ml 1.3.0, so anything above these should also work. Optionally, one can install CUDA on the system. While the scripts will work even without CUDA support, having the same will allow the usage of GPU in place of CPU to speed up the execution.
 
-Automating the scripts to carry out the attacks will be a time consuming affair, and unfortunately do not have sufficient bandwidth to allocate to this task. But I will do so eventually. Till then, stay tuned for any updates.
+Due to size restrictions on GitHub, I cannot upload all the files required to validate the results. For MNIST, I have provided the trained stolen models. The same cannot be done for CIFAR-10 due to their enormous size. Moreover, automating the scripts to carry out the attacks will be a time consuming affair, and unfortunately I do not have sufficient bandwidth to allocate to this task. But I will do so eventually. Till then, stay tuned for any updates.
 
 For any queries, please feel free to email them to us on [bhuvneshchaturvedi2512@kgpian.iitkgp.ac.in](mailto:bhuvneshchaturvedi2512@kgpian.iitkgp.ac.in).
